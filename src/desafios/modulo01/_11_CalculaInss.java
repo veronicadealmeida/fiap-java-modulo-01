@@ -31,7 +31,7 @@ public class _11_CalculaInss {
             valorInss = salario / 100 * aliquotaDois;
         } else if (salario <= tabelaTres) {
             valorInss = salario / 100 * aliquotaTres;
-        } else if (tabelaQuatro > tabelaQuatro) {
+        } else if (salario > tabelaQuatro) {
             valorInss = valorTeto;
         }
 
